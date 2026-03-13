@@ -2,7 +2,7 @@ import pymongo
 from bson import ObjectId
 
 try:
-    client = pymongo.MongoClient("mongodb+srv://youtubepy:youtubepy@cluster0.4wyji15.mongodb.net/ytmanager")
+    client = pymongo.MongoClient("mongodb+srv://user:password@cluster0.4wyji15.mongodb.net/ytmanager")
 except:
     raise Exception("Cinnection failed")
 db = client['ytmanager']
